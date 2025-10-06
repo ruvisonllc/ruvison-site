@@ -1,0 +1,1 @@
+import * as React from 'react';import clsx from 'clsx';export function Input(p:React.InputHTMLAttributes<HTMLInputElement>){return <input className={clsx('w-full rounded-xl border px-3 py-2 text-sm',p.className)} {...p}/>}
